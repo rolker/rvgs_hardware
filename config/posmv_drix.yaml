@@ -1,0 +1,5 @@
+input: /dev/ttyUSB0
+input_speed: 1152000
+input_type: serial
+output: 27001
+output_address: 192.168.0.201
