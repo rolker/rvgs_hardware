@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find rvgs_hardware)/config/posmv_drix.yaml" ns="project11" /> 
+    <node pkg="posmv" type="posmv_nmea_node.py" name="posmv_rvgs" ns="project11" />
+</launch>
