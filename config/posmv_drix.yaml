@@ -1,6 +1,6 @@
 posmv_rvgs:
 
-  input: /dev/ttyUSB2
+  input: /dev/ttyUSB1
   input_speed: 19200
   input_type: serial
   output: 27001
